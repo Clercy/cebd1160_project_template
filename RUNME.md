@@ -5,7 +5,7 @@
 
 #### Docker image build and analysis run
 
-##### Proceed from within required directory (example)
+##### To proceed from within required directory (example)
 lcler@LAPTOP-D2T6EOO0 MINGW64 ~/desktop/cebd1160_project_template (master)
 
 ##### Command to generate the docker image
