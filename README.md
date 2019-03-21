@@ -23,25 +23,19 @@ Can you pinpoint the areas in the Boston region that would be ideal to bring up 
 
 ### Abstract
 
-Through the use of the Boston housing dataset we tried to conclude, based on the relationship of 3 of the attributes, that we can successfully target ideal regions for raising a family.  Tests were conducted to validate the importance of the attributes, their one to one relationship and a comparison of the subset to the full dataset in hopes that the test results would provide the necessary insight into making an informed decision.  
-
-If the tests are conclusive it can allow couples looking at starting a family and existing fmilies insight into prospective neighborhoods.
-- opportunity (what data do we have)
-- challenge (what is the "problem" we could solve with this dataset)
-- action (how will we try to solve this problem/answer this question)
-- resolution (what did we end up producing)
+Through the use of the Boston housing dataset we tried to conclude, based on the relationship of 3 of the attributes, that we can successfully target ideal regions for raising a family.  Tests were conducted to validate the importance of the attributes, their one to one relationship and a comparison of the subset vs the full dataset in hopes that the test results would provide the necessary insight into making an informed decision.  Based on the conducted tests, the results are not strong enough to confirm with certainty that we would establish the ideal regions with precision.   
 
 ### Introduction
 
 The dataset used for this analysis was the load_boston taken from scikit-learn.org [here](https://scikit-learn.org/stable/datasets/index.html#boston-dataset).  There are 3 chart types included.  A plot using the 3 attributes I wanted to isolate, a HEATMAP including all attributes along with a Gradient Boosting Regression chart showing attribute importance based on all attributes.  The included script also generates an RMSE and R2 score for the data subset and full dataset.
 
-chart imdicating attribute importance which includes all attributes.s The plot chart used in this analysis is
-Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
 
 ### Methods
 
 heatmap from here.
 https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b7e4a155
+
+https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_regression.html
 Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
 
 - pseudocode for this method (either created by you or cited from somewhere else)
