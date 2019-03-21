@@ -18,5 +18,5 @@ REPOSITORY     TAG     IMAGE ID      CREATED         SIZE
 
 bosfnl-image   latest  be09221c9ff   14 seconds ago  922MB
 
-###### Command to run the analysis script
+##### Command to run the analysis script
 *docker run -t -v /${PWD}:/${PWD} -w/${PWD} bosfnl-image*
