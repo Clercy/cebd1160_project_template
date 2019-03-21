@@ -15,6 +15,7 @@ lcler@LAPTOP-D2T6EOO0 MINGW64 ~/desktop/cebd1160_project_template (master)
 *docker images*
 
 REPOSITORY     TAG     IMAGE ID      CREATED         SIZE
+
 bosfnl-image   latest  be09221c9ff   14 seconds ago  922MB
 
 ##### Command to run the analysis script
