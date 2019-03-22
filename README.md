@@ -27,7 +27,7 @@ Through the use of the Boston housing dataset we tried to conclude, based on the
 
 ### Introduction
 
-The dataset used for this analysis was the load_boston taken from [scikit-learn.org](https://scikit-learn.org/stable/datasets/index.html#boston-dataset).  There are 3 chart types included.  A plot using the 3 attributes I wanted to isolate, a HEATMAP including all attributes along with a Gradient Boosting Regression chart showing attribute importance based on all attributes.  The included script also generates an RMSE and R2 score for the data subset and full dataset.
+The dataset used for this analysis was the load_boston taken from [scikit-learn.org](https://scikit-learn.org/stable/datasets/index.html#boston-dataset).  There are 3 chart types included.  A plot isolating the 3 attributes, a HEATMAP including all attributes along with a Gradient Boosting Regression chart showing attribute importance based on all attributes.  The included script also generates an RMSE and R2 score for the data subset and full dataset.
 
 
 ### Methods
