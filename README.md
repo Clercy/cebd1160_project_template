@@ -41,7 +41,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 ![smiley](Heatmap_2019314213316.png){:height="36px" width="36px"}.
 
-<img src="Heatmap_2019314213316.png" width="548">
+<img src="Heatmap_2019314213316.png" width="748">
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
