@@ -38,6 +38,11 @@ https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b
 https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_regression.html
 Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
 
+
+![smiley](Heatmap_2019314213316.png){:height="36px" width="36px"}.
+
+
+
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
 
