@@ -41,7 +41,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 ![smiley](Heatmap_2019314213316.png){:height="36px" width="36px"}.
 
-
+<a href="url"><img src="https://github.com/Clercy/cebd1160_project_template.git/Heatmap_2019314213316.png" align="left" height="38" width="38" ></a>
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
