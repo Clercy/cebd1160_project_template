@@ -32,6 +32,13 @@ The dataset used for this analysis was the load_boston taken from [scikit-learn.
 
 ### Methods
 
+To visually interpret the data, we used a correlation matrix to facilitate the understanding of the data and the possible relationships between any 2 dataset attributes amongst them the targeted subset.  A Gradient Boosting Regression model was also used which allows us to rank the attributes by their relative importance within the dataset and a plot graph with a sorted MEDV target to allow us to identify any trends in our subset.
+
+<img src="Heatmap_2019314213316.png" width="800">
+
+<img src="GBR_Relative_Importance_2019314213317.png" width="800">
+
+
 heatmap from here.
 https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b7e4a155
 
@@ -39,7 +46,7 @@ https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_re
 Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
 
 
-<img src="Heatmap_2019314213316.png" width="800">
+
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
