@@ -26,6 +26,9 @@ bosfnl-image   latest  be09221c9ff   14 seconds ago  922MB
 
 
 
+
+
+
 ##### Sample of script run
 
 ... Predicted True Price Scatter Chart on Full Data (Linear Regression)
@@ -51,14 +54,14 @@ Y_test: (102,)
 
 Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
 
-The model performance for training set
---------------------------------------
+*The model performance for training set*
+
 RMSE is 4.741000992236516
 R2 score is 0.738339392059052
 
 
-The model performance for testing set
---------------------------------------
+*The model performance for testing set*
+
 RMSE is 4.568292042303218
 R2 score is 0.7334492147453064
 ... Preparing the data for training the model
@@ -70,14 +73,14 @@ Y_test: (102,)
 
 Model performance testing and training performed on CRIM and PTRATIO vs MEDV
 
-The model performance for training set
---------------------------------------
+*The model performance for training set*
+
 RMSE is 7.6144001885660035
 R2 score is 0.3250530330112821
 
 
-The model performance for testing set
---------------------------------------
+*The model performance for testing set*
+
 RMSE is 7.389189284263164
 R2 score is 0.30262587374686933
 
