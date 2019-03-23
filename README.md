@@ -19,7 +19,7 @@ Your repository should include the following:
 
 ## Research Question
 
-Can you pinpoint the areas in the Boston region that would be ideal to bring up a family?  The analysis is based upon the use of 3 attributes selected as major factors in this investigation.  Affordability, schooling and peace of mind translating to attributes MEDV, PTRATIO and CRIM.
+Can you pinpoint the areas in the Boston region that would be ideal to bring up a family?  The analysis is based upon the use of 3 attributes selected as major factors.  Home median value (MEDV), pupil-teacher ratio (PTRATIO) and crime rate (CRIM).
 
 ### Abstract
 
