@@ -1,4 +1,4 @@
-# cebd1160: Boston Housing Neighborhood Identification
+# cebd1160: Boston Housing Subset Evaluation
 
 
 | Name | Date |
@@ -49,7 +49,8 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 "value" that summarizes either your data or the "performance" of your method
 - A short explanation of both of the above
 
-Model training and testing performed on the dataset and subset:
+
+Model training and testing was performed on the dataset and subset.
 
 #### Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
 
