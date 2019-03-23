@@ -244,7 +244,7 @@ params = {'n_estimators': 500, 'max_depth': 4, 'min_samples_split': 2,
 clf = ensemble.GradientBoostingRegressor(**params)
 clf.fit(X_train, y_train)
 mse = mean_squared_error(y_test, clf.predict(X_test))
-print('\nGradientBoostingRegressor Model MSE')
+print('\nGradientBoostingRegressor Model MSE (Full Dataset)')
 print("Mean Squared Error: %.4f" % mse)
 ############################################################################################
 ### Create Relative Importance and Training-Test Set Deviance
