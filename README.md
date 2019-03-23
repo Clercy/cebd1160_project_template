@@ -19,11 +19,11 @@ Your repository should include the following:
 
 ## Research Question
 
-Can you pinpoint the areas in the Boston region that would be ideal to bring up a family?  The analysis is based upon the use of 3 attributes selected as major factors.  Home median value (MEDV), pupil-teacher ratio (PTRATIO) and crime rate (CRIM).
+Can you pinpoint the areas in the Boston region that would be ideal to raise a family?  The analysis is based upon the use of 3 attributes selected as major factors.  Home median value (MEDV), pupil-teacher ratio (PTRATIO) and crime rate (CRIM).
 
 ### Abstract
 
-Through the use of the Boston housing dataset we tried to conclude, based on the relationship of 3 of the attributes, that we can successfully target ideal regions for raising a family.  Tests were conducted to validate the importance of the attributes, their one to one relationship and a comparison of the subset vs the full dataset in hopes that the test results would provide the necessary insight into making an informed decision.  Based on the conducted tests, the results are not strong enough to confirm with certainty that we would establish the ideal regions with precision.   
+Through the use of the Boston housing dataset we tried to conclude, based upon the relationship of 3 of the attributes, that we can successfully target ideal regions for raising a family.  Tests were conducted to validate the importance of the attributes, their one to one relationship and a comparison of the subset vs the full dataset in hopes that the test results would provide the necessary insight into making an informed decision.  Based on the conducted tests, the results are not strong enough to confirm with certainty that we would establish the ideal regions with precision.   
 
 ### Introduction
 
@@ -48,6 +48,8 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method
 - A short explanation of both of the above
+
+If we look at our charts above, the Heatmap correlations shows a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
 
 
 Model training and testing was performed on the dataset and subset.
