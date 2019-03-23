@@ -49,7 +49,7 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 "value" that summarizes either your data or the "performance" of your method
 - A short explanation of both of the above
 
-If we look at our charts above, the Heatmap correlations shows a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
+If we look at our charts above, the Heatmap correlations demonstrate a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
 
 
 Model training and testing was performed on the dataset and subset.
