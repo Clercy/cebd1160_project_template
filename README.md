@@ -51,24 +51,29 @@ Brief (2 paragraph) description about your results. Include:
 
 We performed training and testing on the dataset and subset:
 
-##### Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
+#### Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
 
 *The model performance for training set*
+
 Returned an RMSE of 4.741000992236516 along with an R2 score of 0.738339392059052
 
 *The model performance for testing set*
+
 Returned an RMSE of 4.568292042303218 along with an R2 score of 0.7334492147453064
 
-##### Model performance testing and training performed on CRIM and PTRATIO vs MEDV
+#### Model performance testing and training performed on CRIM and PTRATIO vs MEDV
 
 *The model performance for training set*
+
 Returned an RMSE of 7.6144001885660035 along with an R2 score of 0.3250530330112821
 
 *The model performance for testing set*
+
 Returned an RMSE of 7.389189284263164 along with an R2 score of 0.30262587374686933
 
 
 *GradientBoostingRegressor Model MSE (Full Dataset)*
+
 Mean Squared Error: 6.3330
 
 
