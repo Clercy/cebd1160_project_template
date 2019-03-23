@@ -49,7 +49,7 @@ Brief (2 paragraph) description about your results. Include:
 - At least 1 "value" that summarizes either your data or the "performance" of your method
 - A short explanation of both of the above
 
-We performed training and testing on the dataset and subset:
+Model training and testing performed on the dataset and subset:
 
 #### Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
 
@@ -72,7 +72,7 @@ Returned an RMSE of 7.6144001885660035 along with an R2 score of 0.3250530330112
 Returned an RMSE of 7.389189284263164 along with an R2 score of 0.30262587374686933
 
 
-*GradientBoostingRegressor Model MSE (Full Dataset)*
+####GradientBoostingRegressor Model MSE (Full Dataset)
 
 Mean Squared Error: 6.3330
 
