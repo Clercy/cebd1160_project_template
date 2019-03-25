@@ -43,16 +43,9 @@ We used a correlation matrix to facilitate the understanding of the data and the
 
 ### Results
 
-Brief (2 paragraph) description about your results. Include:
+If we look at our charts above, the Heatmap correlations demonstrate a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model used on the dataset ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
 
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
-
-If we look at our charts above, the Heatmap correlations demonstrate a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
-
-
-Model training and testing was performed on the dataset and subset.
+Model training and testing was performed on the dataset and subset to compare the values and gauge their importance vis a vis the dataset.  The subset scored higher in RMSE and lower in R2 which in both cases is a sign that the subset values are weaker compared to usage of full dataset.
 
 #### Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
 
@@ -75,21 +68,32 @@ Returned an RMSE of 7.6144001885660035 along with an R2 score of 0.3250530330112
 Returned an RMSE of 7.389189284263164 along with an R2 score of 0.30262587374686933
 
 
-####GradientBoostingRegressor Model MSE (Full Dataset)
-
-Mean Squared Error: 6.3330
-
-
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
 
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
+Can these attributes be used to correctly pinpoint the goal of this analysis?  Based on the results, the targeted attributes are not a great indicator in their current state.  Further analysis can potentially reveal more insight.  A larger dataset might aid in the analysis and modify our data scores for our subset.  Possibly incorporating other attributes (see list below) and testing on different combinations along with the number of attributes, in conjunction with the original 2 tested against the MEDV, might provide a clearer answer.
+
+- TAX full-value property-tax rate per $10,000
+- LSTAT % lower status of the population
+- RM average number of rooms per dwelling
+- DIS weighted distances to five Boston employment centres
+- RAD index of accessibility to radial highways
 
 ### References
-All of the links
+
 https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b7e4a155
+
 https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_regression.html
+
+http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
+
+https://blog.goodaudience.com/linear-regression-on-the-boston-housing-data-set-d18c4ce4d0be
+
+https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/
+
+
+
 
 
 -------
