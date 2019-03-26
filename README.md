@@ -43,7 +43,7 @@ For charting purposes, we used a correlation matrix to facilitate the understand
 
 ### Results
 
-<img src="SCT_predicted_true_price_linear_20193252250.png" width="200"> <img src="SCT_linear_reg_Subset20193252250.png" width="200">
+<img src="SCT_predicted_true_price_linear_20193252250.png" width="300"> <img src="SCT_linear_reg_Subset20193252250.png" width="300">
 
 The regression charts above show that the full dataset fits best compared to the subset.  If we look under methods, the Heatmap correlations demonstrate a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model used on the dataset ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
 
