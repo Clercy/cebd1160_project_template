@@ -46,13 +46,50 @@ plt.figure(figsize=(4, 3))
 plt.scatter(expected, predicted)
 plt.plot([0, 50], [0, 50], '--k')
 plt.axis('tight')
-plt.xlabel('True price ($1000s)')
-plt.ylabel('Predicted price ($1000s)')
+
+plt.xlabel('Full Dataset')
+plt.ylabel('MEDV')
+
+#plt.xlabel('True price ($1000s)')
+#plt.ylabel('Predicted price ($1000s)')
 plt.tight_layout()
 plt.savefig('SCT_predicted_true_price_linear_'+ thetimestamp() + '.png')
 plt.close()
 print('\n... Predicted True Price Scatter Chart on Full Data (Linear Regression)\n')
 print("RMS: %s" % np.sqrt(np.mean((predicted - expected) ** 2)))
+
+###################  TEST
+############################################################################################
+### Linear Regression
+############################################################################################
+#Predicting Home Prices: a Simple Linear Regression
+from sklearn.model_selection import train_test_split
+
+X_LRT = pd.DataFrame(np.c_[boston['CRIM'], boston['PTRATIO']], columns = ['CRIM','PTRATIO'])
+Y_LRT = boston['MEDV']
+
+X_trn, X_tst, y_trn, y_tst = train_test_split(X_LRT, Y_LRT)
+
+from sklearn.linear_model import LinearRegression
+clf = LinearRegression()
+clf.fit(X_trn, y_trn)
+tpredicted = clf.predict(X_tst)
+texpected = y_tst
+
+plt.figure(figsize=(4, 3))
+plt.scatter(texpected, tpredicted)
+plt.plot([0, 50], [0, 50], '--k')
+plt.axis('tight')
+plt.xlabel('Subset')
+plt.ylabel('MEDV')
+plt.tight_layout()
+plt.savefig('SCT_linear_reg_Subset'+ thetimestamp() + '.png')
+plt.close()
+print('\n... Predicted True Price Scatter Chart on Subset (Linear Regression)\n')
+print("RMS: %s" % np.sqrt(np.mean((tpredicted - texpected) ** 2)))
+################### TEST
+
+
 
 ############################################################################################
 ########### Gradient Boosting Regression
