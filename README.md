@@ -10,31 +10,31 @@
 ### Resources
 Your repository should include the following:
 
-- Python script for your analysis: boston_regr_final.py
-- Results figure/saved file : Project/
-- Dockerfile for your experiment: Dockerfile
-- Runtime-instructions : RUNME.md
+- Python script for your analysis: 'boston_regr_final.py'
+- Results figure/saved file : 'Project/'
+- Dockerfile for your experiment: 'Dockerfile'
+- Runtime-instructions : 'RUNME.md'
 
 -----
 
 ## Research Question
 
-Can you pinpoint the areas in the Boston region that would be ideal to raise a family?  The analysis is based upon the use of 3 attributes selected as major factors.  Home median value (MEDV), pupil-teacher ratio (PTRATIO) and crime rate (CRIM).
+Can we pinpoint the areas in the Boston region that would be ideal to raise a family?  The analysis is based upon the use of 3 attributes that were selected as major factors.  They are home median value (MEDV), pupil-teacher ratio (PTRATIO) and crime rate (CRIM).
 
 ### Abstract
 
-Through the use of the Boston housing dataset we tried to conclude, based upon the relationship of 3 of the attributes, that we can successfully target ideal regions for raising a family.  Tests were conducted to validate the importance of the attributes, their one to one relationship and a comparison of the subset vs the full dataset in hopes that the test results would provide the necessary insight into making an informed decision.  Based on the conducted tests, the results are not strong enough to confirm with certainty that we would establish the ideal regions with precision.   
+Through the use of the Boston housing dataset we tried to conclude, based upon the relationship of 3 of the attributes, that we could successfully target ideal regions for raising a family.  Tests were conducted to validate the importance of the attributes, their one to one relationship and a comparison of the subset vs the full dataset.  This was done in hopes that the results would provide the necessary insight into making an informed decision on best family locations.  Based on the conducted tests, the results were not strong enough to confirm with certainty that we would establish the ideal regions with precision.   
 
 ### Introduction
 
-The dataset used for this analysis was the load_boston taken from [scikit-learn.org](https://scikit-learn.org/stable/datasets/index.html#boston-dataset).  There are 3 chart types included.  A plot isolating the 3 attributes, a HEATMAP including all attributes along with a Gradient Boosting Regression chart displaying all attributes.  The included script also generates an RMSE and R2 score for the data subset and full dataset.
+The dataset used for this analysis was the load_boston taken from [scikit-learn.org](https://scikit-learn.org/stable/datasets/index.html#boston-dataset).  The following charts were included.  A plot isolating the 3 attributes, a HEATMAP including all attributes, a Relative Importance chart displaying all attributes and 2 regression charts comparing all datasets vs the targeted attributes.  The included script also generates an RMSE and R2 score for the data subset and full dataset.
 
 
 ### Methods
 
-To interpret the data, we chose a combination of charting and interpretation of the calculations of the RMSE and R2 scores.  This was done for the subset as well as for the full dataset.  
+To interpret the data, we chose a combination of charting and calculations of the RMSE and R2 scores for the subset as well as the full dataset.  
 
-We used a correlation matrix to facilitate the understanding of the data and the possible relationships between any 2 attributes amongst them the targeted attributes.  A Gradient Boosting Regression model was also used which allows us to rank the attributes by their relative importance within the dataset and a plot graph with a sorted MEDV target to allow for easier visualization in identifying any trends within the subset.
+For charting purposes, we used a correlation matrix to facilitate the understanding of the data and the possible relationships between any 2 attributes amongst them the targeted attributes.  A Gradient Boosting Regression model was also used which allows us to rank the attributes by their relative importance within the dataset and a plot graph with a sorted MEDV target to allow for easier visualization in identifying any trends within the subset.
 
 <img src="Heatmap_2019314213316.png" width="750">
 <img src="GBR_Relative_Importance_2019314213317.png" width="750">
@@ -43,9 +43,11 @@ We used a correlation matrix to facilitate the understanding of the data and the
 
 ### Results
 
-If we look at our charts above, the Heatmap correlations demonstrate a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model used on the dataset ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
+<img src="SCT_predicted_true_price_linear_20193252250.png" width="450"> <img src="SCT_linear_reg_Subset20193252250.png" width="450">
 
-Model training and testing was performed on the dataset and subset to compare the values and gauge their importance vis a vis the dataset.  The subset scored higher in RMSE and lower in R2 which in both cases is a sign that the subset values are weaker compared to usage of full dataset.
+The regression charts above show that the full dataset fits best compared to the subset.  If we look under methods, the Heatmap correlations demonstrate a midrange negative correlation between PTRATIO and MEDV (-0.51) along with a weak negative correlation between CRIM and MEDV (-0.39).  The Gradient Boosting Regression model used on the dataset ranks the PTRATIO and CRIM attributes in the middle of the list for relative importance.  
+
+Model training and testing was performed on the dataset and subset to compare the values and gauge their importance vis a vis the dataset.  The subset scored higher in RMSE and lower in R2 which in both cases is a sign that the subset values are weaker compared to the usage of the full dataset.
 
 #### Model performance testing and training performed on ALL ATTRIBUTES vs TARGET MEDV
 
@@ -84,13 +86,15 @@ https://towardsdatascience.com/linear-regression-on-boston-housing-dataset-f409b
 
 https://scikit-learn.org/stable/auto_examples/ensemble/plot_gradient_boosting_regression.html
 
-http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings
-
 https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
 
 https://blog.goodaudience.com/linear-regression-on-the-boston-housing-data-set-d18c4ce4d0be
 
 https://www.bmc.com/blogs/mean-squared-error-r2-and-variance-in-regression-analysis/
+
+https://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_boston_prediction.html
+
+https://scipy-lectures.org/packages/scikit-learn/index.html
 
 
 
