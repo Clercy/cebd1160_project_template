@@ -10,10 +10,10 @@
 ### Resources
 Your repository should include the following:
 
-- Python script for your analysis: 'boston_regr_final.py'
-- Results figure/saved file : 'Project/'
-- Dockerfile for your experiment: 'Dockerfile'
-- Runtime-instructions : 'RUNME.md'
+- Python script for your analysis: boston_regr_final.py
+- Results figure/saved file : Project/
+- Dockerfile for your experiment: Dockerfile
+- Runtime-instructions : RUNME.md
 
 -----
 
