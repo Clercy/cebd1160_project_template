@@ -10,9 +10,9 @@ RUN pip3 install numpy pandas
 RUN pip3 install matplotlib
 RUN pip3 install datetime
 RUN pip3 install plotly
-Run pip3 install seaborn
-Run pip3 install datetime
-Run pip3 install sklearn
+RUN pip3 install seaborn
+RUN pip3 install datetime
+RUN pip3 install sklearn
 
 
 ENTRYPOINT ["python3","./boston_regr_final.py"]
